@@ -1,0 +1,163 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: arial
+
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    
+}
+.containermenu{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.bottom input{
+    margin:20px 10px 0 0px;
+    background-color: white;
+    border:none;
+}
+
+
+.bottomcircle{
+    display:flex;
+    flex-wrap: wrap;
+    width: 20px;
+    margin:20px 5px;
+    border-radius: 10px;
+    
+}
+.bola{
+    width:4px;
+    height: 4px;
+    margin: 1px;
+    border-radius:4px;
+    background-color: rgb(94, 90, 90);
+}
+
+.bottomcircle:hover{
+    box-shadow: 0px 0px 0px 7px rgba(148, 145, 145, 0.2);;
+}
+
+.foto img{
+    width:30px;
+    height:30px;
+    border-radius:15px;
+    
+}
+
+.eu:hover{
+    box-shadow: 0px 0px 0px 7px rgba(148, 145, 145, 0.2);
+}
+
+.foto{
+    margin:15px 20px;
+    
+}
+
+input:hover{
+    text-decoration: underline;
+}
+
+.lupa{
+    width: 15px;
+    height: 15px;
+    margin: 10px 0px 10px 20px;
+   
+}
+
+
+
+
+.S1{
+    display:flex;
+    flex-direction: column;
+    height:70%;
+    align-items: center;
+}
+
+.logo{
+    margin: 10px 20px 20px 20px;
+}
+.pesquisa{
+    
+    background: transparent;
+    width: 45%;
+    border: 1px solid rgb(190, 186, 186);
+    border-radius: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bp{
+    border: none;
+    width: 600px;
+    border-radius: 50px;
+    height: 50px;
+      
+
+}
+
+.bp:hover{
+    border: 1px solid rgb(245, 247, 252);
+}
+
+.pesquisagoogle{
+    margin:20px 10px;
+    padding: 10px;
+    width: 130px;
+    background-color: rgb(247, 244, 248) ;
+    border: none;
+    border-radius: 5px;
+}
+
+.pesquisagoogle:hover{
+    box-shadow: 0px 0px 0px 1px rgba(226, 223, 223, 0.2);
+    border:1px solid  rgb(189, 188, 188);
+    text-decoration: none;
+}
+
+.brasil{
+    width: 100%;
+    height:60px;
+    background-color:rgb(245, 243, 243) ;
+    display:flex;
+    
+}
+
+.brasil p{
+    font-size: 15px;
+    color: rgb(136, 135, 135);
+    margin: 20px 20px;
+}
+
+footer{
+    background-color:rgb(245, 243, 243);
+    height: 50px;
+    border-top: 1px solid rgb(223, 217, 217);
+    display:flex;
+    width:100%;
+}
+.containerfooter{
+    display: flex;
+    
+    
+}
+
+.br1{
+margin:10px 20px;
+border:none;
+color: rgb(136, 135, 135) ;
+   
+}
+
+.containerfooter2{
+    display:flex;
+    width: 100%;
+    justify-content: flex-end;
+    
+}
